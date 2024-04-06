@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JavaScript Tipe Data</title>
+</head>
+<body>
+    <h1>Belaja Javacript Tipe Data</h1>
+    <script>
+        // Number
+        let num = 80
+        let decimal = 0.4
+        let mines = -1
+        console.log(num)
+        console.log(decimal)
+        console.log(mines)
+        // string
+        let nama = "Shirakami Fubuki"
+        let salam = `Selamat pagi ${nama}`
+        console.log(salam)
+        let concat = "Selamat pagi " + nama;
+        console.log(concat)
+        // boolean
+        let perempuan = true
+        let laki2 = false
+        console.log(perempuan)
+        console.log(laki2)
+        // null
+        let nulls = null
+        console.log(nulls)
+        // array
+        let holoJP = ["Fubuki", "Miko", "Sora", "Azki", "Okayu"]
+        console.log(holoJP)
+        console.log("Pagi " +holoJP[0])
+        holoJP[1] = "Mio"
+        console.log(holoJP[1])
+        // destructing array
+        let lemari = [
+            ["gelang", "kalung", "cincin", "emas"],
+            ["kemeja", "kaos", "jilbab", "sweater"]
+        ]
+        let [perhiasan, pakaian] = lemari
+        console.log(perhiasan)
+        console.log(pakaian)
+        //typeof
+        console.log(typeof laki2)
+    </script>
+</body>
+</html>
